@@ -1,0 +1,36 @@
+{
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "env": {
+    "es2021": true
+  },
+  "rules": {
+    "quotes": [
+      2,
+      "double",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "max-len": "off",
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "no-case-declarations": "off",
+    "no-unreachable": "off",
+    "prefer-template": 2,
+    "max-line-length": "off",
+    "no-empty": "off",
+    "curly": [
+      "error",
+      "all"
+    ]
+  }
+}
