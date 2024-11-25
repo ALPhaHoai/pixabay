@@ -1,6 +1,6 @@
 require("dotenv").config();
 const app = require("./app");
-const debug = require("debug")("steamsupportapi:server");
+const debug = require("debug")("pixabay:server");
 const http = require("http");
 const { connect } = require("./db.js");
 
